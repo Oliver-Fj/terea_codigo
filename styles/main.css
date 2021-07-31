@@ -1,0 +1,53 @@
+input:focus:valid{
+        border: 1px solid green;
+        }
+input:focus:invalid {
+            border: 1px solid red;
+        }
+        input:focus{
+        outline: none;
+        }
+textarea:focus:valid{
+        border: 1px solid green;
+        }
+textarea:focus:invalid {
+            border: 1px solid red;
+        }
+textarea:focus{
+        outline: none;
+        }
+
+        /*
+Header
+*/
+.header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > a {
+    font-size: 30 px;
+}
+
+.header a:hover {
+        text-decoration: underline;
+}
+
+.header a:active {
+        font-size: 16 px;
+}
+
+.header ul {
+        display:flex
+}
+
+.header ul li {
+        margin: 10 px;
+        background-color: blue;
+        padding: 10 px;
+        border-radius: 20px;
+}
